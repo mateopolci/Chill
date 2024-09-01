@@ -1,4 +1,6 @@
 import chill from "../assets/chill.png";
+import Cart from "./Cart.jsx";
+
 function NavBar() {
 	return (
 		<header className="flex flex-row justify-between bg-black">
