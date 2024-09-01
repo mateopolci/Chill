@@ -1,4 +1,4 @@
-import chill from "../../assets/chill.png";
+import chill from "../assets/chill.png";
 function NavBar() {
 	return (
 		<header className="flex flex-row justify-between bg-black">
