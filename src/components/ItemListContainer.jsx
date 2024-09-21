@@ -1,8 +1,8 @@
 function ItemListContainer(props) {
 	return (
 		<>
-			<div className="rounded-md bg-light-green m-5 h-12 flex justify-center items-center">
-				<h2 className="text-black font-medium text-2xl">
+			<div className="m-5 flex h-12 items-center justify-center rounded-md bg-light-green">
+				<h2 className="text-2xl font-medium text-black">
 					{props.greetings}
 				</h2>
 			</div>

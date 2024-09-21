@@ -6,5 +6,6 @@
 	"bracketSpacing": false,
 	"jsxSingleQuote": false,
 	"endOfLine": "crlf",
-	"useTabs": true
+	"useTabs": true,
+	"plugins": ["prettier-plugin-tailwindcss"]
 }

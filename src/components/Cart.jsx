@@ -1,7 +1,7 @@
 function Cart() {
 	return (
 		<>
-			<div className="rounded-full bg-light-green text-center w-6 h-6 flex justify-center items-center ml-4">
+			<div className="ml-4 flex h-6 w-6 items-center justify-center rounded-full bg-light-green text-center">
 				<p className="text-black">3</p>
 			</div>
 			<a href="#">
