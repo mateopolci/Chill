@@ -1,4 +1,4 @@
-import chill from "../assets/chill.png";
+import chill from "../assets/icons/chill.png";
 import Cart from "./Cart.jsx";
 
 function NavBar() {
