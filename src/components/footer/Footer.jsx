@@ -1,4 +1,5 @@
 import React from "react";
+import {Link} from "react-router-dom";
 
 function Footer() {
 	return (
@@ -6,19 +7,19 @@ function Footer() {
 			<div className="flex">
 				<ul className="flex flex-row items-center">
 					<li className="text-xl font-semibold text-light-green">
-						<a href="#" className="ml-10 mr-5 p-2">
+						<Link to="/" className="ml-10 mr-5 p-2">
 							FAQ
-						</a>
+						</Link>
 					</li>
 					<li className="text-xl font-semibold text-light-green">
-						<a href="#" className="ml-5 mr-10 p-2">
+						<Link to="/" className="ml-5 mr-10 p-2">
 							Privacy and terms
-						</a>
+						</Link>
 					</li>
 					<li className="text-xl font-semibold text-light-green">
-						<a href="#" className="mx-5 p-2">
-                            230 E Main St, Aspen, CO 81611, EE. UU.
-						</a>
+						<Link to="/" className="mx-5 p-2">
+							230 E Main St, Aspen, CO 81611, EE. UU.
+						</Link>
 					</li>
 				</ul>
 			</div>
