@@ -22,7 +22,7 @@ function ItemList() {
 	}, []);
 
 	if (loading) {
-		return <div>Loading...</div>;
+		return <div className="flex justify-center items-center h-screen">Loading...</div>;
 	}
 
 	return (
@@ -33,7 +33,6 @@ function ItemList() {
 					{data.map((prod) => (
 						<Item 
                         key={prod.id}
-                        id={prod.id}
                         name={prod.name}
                         brand={prod.brand}
                         category={prod.category}
