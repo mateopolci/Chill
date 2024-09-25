@@ -1,8 +1,10 @@
 import React from 'react'
-    
+import Item from './Item'
 function ItemList() {
     return (
-        <div>ItemList</div>
+        <>
+        <Item></Item>
+        </>
     )
     }
     
