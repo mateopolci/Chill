@@ -1,4 +1,4 @@
-import chill from "../assets/icons/chill.png";
+import chill from "../../assets/icons/chill.png";
 import Cart from "./Cart.jsx";
 
 function NavBar() {
@@ -10,22 +10,22 @@ function NavBar() {
 			<div className="flex">
 				<ul className="flex flex-row items-center justify-center">
 					<li className="text-2xl font-semibold text-light-green">
-						<a href="#" className="ml-10 mr-5 p-3">
+						<a href="#" className="ml-10 mr-5 p-2">
 							Shop
 						</a>
 					</li>
 					<li className="text-2xl font-semibold text-light-green">
-						<a href="#" className="mx-5 p-3">
+						<a href="#" className="mx-5 p-2">
 							About us
 						</a>
 					</li>
 					<li className="text-2xl font-semibold text-light-green">
-						<a href="#" className="ml-5 mr-10 p-3">
+						<a href="#" className="ml-5 mr-10 p-2">
 							Contact
 						</a>
 					</li>
 					<li className="mr-5 text-2xl font-bold text-light-green">
-						<a href="#" className="p-3">
+						<a href="#" className="p-2">
 							<Cart></Cart>
 						</a>
 					</li>
