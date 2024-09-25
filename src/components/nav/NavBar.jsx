@@ -6,10 +6,7 @@ function NavBar() {
 	return (
 		<header className="flex h-20 flex-row justify-between bg-black">
 			<Link to="/" className="w-32">
-				<img
-					src="../../public/assets/icons/chill.png"
-					alt="Chill logo"
-				/>
+				<img src="/assets/icons/chill.png" alt="Chill logo" />
 			</Link>
 			<div className="flex">
 				<ul className="flex flex-row items-center justify-center">

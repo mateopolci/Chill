@@ -1,7 +1,7 @@
 export const product = [
 	{
 		id: 1,
-		image: "../../public/assets/products/snowboards/burton-custom.webp",
+		image: "/assets/products/snowboards/burton-custom.webp",
 		name: "Burton Custom",
 		brand: "Burton",
 		category: "snowboard",
@@ -13,7 +13,7 @@ export const product = [
 	},
 	{
 		id: 2,
-		image: "../../public/assets/products/snowboards/lib-tech-t.rice-pro.webp",
+		image: "/assets/products/snowboards/lib-tech-t.rice-pro.webp",
 		name: "Lib Tech T.Rice Pro",
 		brand: "Lib Tech",
 		category: "snowboard",
@@ -25,7 +25,7 @@ export const product = [
 	},
 	{
 		id: 3,
-		image: "../../public/assets/products/snowboards/salomon-assassin.webp",
+		image: "/assets/products/snowboards/salomon-assassin.webp",
 		name: "Salomon Assassin",
 		brand: "Salomon",
 		category: "snowboard",
@@ -37,7 +37,7 @@ export const product = [
 	},
 	{
 		id: 4,
-		image: "../../public/assets/products/snowboards/k2-raygun.webp",
+		image: "/assets/products/snowboards/k2-raygun.webp",
 		name: "K2 Raygun",
 		brand: "K2",
 		category: "snowboard",
@@ -49,7 +49,7 @@ export const product = [
 	},
 	{
 		id: 5,
-		image: "../../public/assets/products/snowboards/burton-process.webp",
+		image: "/assets/products/snowboards/burton-process.webp",
 		name: "Burton Process",
 		brand: "Burton",
 		category: "snowboard",
@@ -61,7 +61,7 @@ export const product = [
 	},
 	{
 		id: 6,
-		image: "../../public/assets/products/snowboards/lib-tech-skate-banana.webp",
+		image: "/assets/products/snowboards/lib-tech-skate-banana.webp",
 		name: "Lib Tech Skate Banana",
 		brand: "Lib Tech",
 		category: "snowboard",
@@ -73,7 +73,7 @@ export const product = [
 	},
 	{
 		id: 7,
-		image: "../../public/assets/products/snowboards/salomon-huck-knife.webp",
+		image: "/assets/products/snowboards/salomon-huck-knife.webp",
 		name: "Salomon Huck Knife",
 		brand: "Salomon",
 		category: "snowboard",
@@ -85,7 +85,7 @@ export const product = [
 	},
 	{
 		id: 8,
-		image: "../../public/assets/products/snowboards/k2-broadcast.webp",
+		image: "/assets/products/snowboards/k2-broadcast.webp",
 		name: "K2 Broadcast",
 		brand: "K2",
 		category: "snowboard",
@@ -97,7 +97,7 @@ export const product = [
 	},
 	{
 		id: 9,
-		image: "../../public/assets/products/snowboards/burton-deep-thinker.webp",
+		image: "/assets/products/snowboards/burton-deep-thinker.webp",
 		name: "Burton Deep Thinker",
 		brand: "Burton",
 		category: "snowboard",
@@ -109,7 +109,7 @@ export const product = [
 	},
 	{
 		id: 10,
-		image: "../../public/assets/products/snowboards/lib-tech-orca.webp",
+		image: "/assets/products/snowboards/lib-tech-orca.webp",
 		name: "Lib Tech Orca",
 		brand: "Lib Tech",
 		category: "snowboard",
@@ -121,7 +121,7 @@ export const product = [
 	},
 	{
 		id: 11,
-		image: "../../public/assets/products/helmets/smith-vantage.webp",
+		image: "/assets/products/helmets/smith-vantage.webp",
 		name: "Smith Vantage",
 		brand: "Smith",
 		category: "helmet",
@@ -133,7 +133,7 @@ export const product = [
 	},
 	{
 		id: 12,
-		image: "../../public/assets/products/helmets/giro-ledge-mips.webp",
+		image: "/assets/products/helmets/giro-ledge-mips.webp",
 		name: "Giro Ledge MIPS",
 		brand: "Giro",
 		category: "helmet",
@@ -145,7 +145,7 @@ export const product = [
 	},
 	{
 		id: 13,
-		image: "../../public/assets/products/helmets/anon-raider-3.webp",
+		image: "/assets/products/helmets/anon-raider-3.webp",
 		name: "Anon Raider 3",
 		brand: "Anon",
 		category: "helmet",
@@ -157,7 +157,7 @@ export const product = [
 	},
 	{
 		id: 14,
-		image: "../../public/assets/products/helmets/smith-mission.webp",
+		image: "/assets/products/helmets/smith-mission.webp",
 		name: "Smith Mission",
 		brand: "Smith",
 		category: "helmet",
@@ -169,7 +169,7 @@ export const product = [
 	},
 	{
 		id: 15,
-		image: "../../public/assets/products/helmets/giro-range-mips.webp",
+		image: "/assets/products/helmets/giro-range-mips.webp",
 		name: "Giro Range MIPS",
 		brand: "Giro",
 		category: "helmet",
@@ -181,7 +181,7 @@ export const product = [
 	},
 	{
 		id: 16,
-		image: "../../public/assets/products/goggles/oakley-flight-deck.webp",
+		image: "/assets/products/goggles/oakley-flight-deck.webp",
 		name: "Oakley Flight Deck",
 		brand: "Oakley",
 		category: "goggles",
@@ -193,7 +193,7 @@ export const product = [
 	},
 	{
 		id: 17,
-		image: "../../public/assets/products/goggles/smith-io-mag.webp",
+		image: "/assets/products/goggles/smith-io-mag.webp",
 		name: "Smith I/O MAG",
 		brand: "Smith",
 		category: "goggles",
@@ -205,7 +205,7 @@ export const product = [
 	},
 	{
 		id: 18,
-		image: "../../public/assets/products/goggles/dragon-x2.webp",
+		image: "/assets/products/goggles/dragon-x2.webp",
 		name: "Dragon X2",
 		brand: "Dragon",
 		category: "goggles",
@@ -217,7 +217,7 @@ export const product = [
 	},
 	{
 		id: 19,
-		image: "../../public/assets/products/goggles/anon-m4-cylindrical.webp",
+		image: "/assets/products/goggles/anon-m4-cylindrical.webp",
 		name: "Anon M4 Cylindrical",
 		brand: "Anon",
 		category: "goggles",
@@ -229,7 +229,7 @@ export const product = [
 	},
 	{
 		id: 20,
-		image: "../../public/assets/products/goggles/oakley-line-miner.webp",
+		image: "/assets/products/goggles/oakley-line-miner.webp",
 		name: "Oakley Line Miner",
 		brand: "Oakley",
 		category: "goggles",
@@ -241,7 +241,7 @@ export const product = [
 	},
 	{
 		id: 21,
-		image: "../../public/assets/products/goggles/smith-squad-xl.webp",
+		image: "/assets/products/goggles/smith-squad-xl.webp",
 		name: "Smith Squad XL",
 		brand: "Smith",
 		category: "goggles",
@@ -253,7 +253,7 @@ export const product = [
 	},
 	{
 		id: 22,
-		image: "../../public/assets/products/goggles/dragon-nfx2.webp",
+		image: "/assets/products/goggles/dragon-nfx2.webp",
 		name: "Dragon NFX2",
 		brand: "Dragon",
 		category: "goggles",
