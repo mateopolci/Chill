@@ -33,6 +33,7 @@ function ItemList() {
 					{data.map((prod) => (
 						<Item 
                         key={prod.id}
+						image={prod.image}
                         name={prod.name}
                         brand={prod.brand}
                         category={prod.category}
