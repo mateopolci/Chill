@@ -2,7 +2,7 @@ import React from "react";
 
 function Item({id, image, name, brand, price}) {
 	return (
-		<div className="flex h-80 w-48 flex-col items-center justify-between border border-solid border-black p-3">
+		<div className="flex h-80 w-48 flex-col items-center justify-between border-2 border-solid border-black p-3">
 			<div className="">
 				<img src={image} className=""></img>
 				<div className="m-2">

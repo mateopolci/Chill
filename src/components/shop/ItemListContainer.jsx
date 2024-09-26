@@ -1,9 +1,12 @@
 import React from "react";
 import ItemList from "./ItemList";
-function ItemListContainer(props) {
+import {useParams} from "react-router-dom";
+
+function ItemListContainer() {
+	const {category} = useParams();
 	return (
 		<>
-			<ItemList />
+			<ItemList category={category} />
 		</>
 	);
 }

@@ -11,18 +11,18 @@ function NavBar() {
 			<div className="flex">
 				<ul className="flex flex-row items-center justify-center">
 					<li className="text-2xl font-semibold text-light-green">
-						<Link to="/" className="ml-10 mr-5 p-2">
-							Shop
+						<Link to="/snowboards" className="mx-5 p-2">
+							Snowboards
 						</Link>
 					</li>
 					<li className="text-2xl font-semibold text-light-green">
-						<Link to="/" className="mx-5 p-2">
-							About us
+						<Link to="/helmets" className="ml-5 mr-10 p-2">
+							Helmets
 						</Link>
 					</li>
 					<li className="text-2xl font-semibold text-light-green">
-						<Link to="/" className="ml-5 mr-10 p-2">
-							Contact
+						<Link to="/goggles" className="ml-5 mr-10 p-2">
+							Goggles
 						</Link>
 					</li>
 					<li className="mr-5 text-2xl font-bold text-light-green">

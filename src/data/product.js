@@ -4,7 +4,7 @@ export const product = [
 		image: "/assets/products/snowboards/burton-custom.webp",
 		name: "Custom",
 		brand: "Burton",
-		category: "snowboard",
+		category: "snowboards",
 		price: 599,
 		description:
 		"The Burton Custom is one of the most iconic snowboards, offering a perfect balance of control and maneuverability. Ideal for advanced riders looking for versatility across all terrains.",
@@ -16,7 +16,7 @@ export const product = [
 		image: "/assets/products/snowboards/lib-tech-t.rice-pro.webp",
 		name: "T.Rice Pro",
 		brand: "Lib Tech",
-		category: "snowboard",
+		category: "snowboards",
 		price: 650,
 		description:
 		"Developed with Travis Rice, the Lib Tech T.Rice Pro provides unmatched power and precision for riders aiming to conquer any mountain with style and performance.",
@@ -28,7 +28,7 @@ export const product = [
 		image: "/assets/products/snowboards/salomon-assassin.webp",
 		name: "Assassin",
 		brand: "Salomon",
-		category: "snowboard",
+		category: "snowboards",
 		price: 549,
 		description:
 		"The Salomon Assassin is an all-mountain snowboard that blends freestyle performance with freeride capabilities. It’s perfect for versatile riders who want to tackle every part of the mountain.",
@@ -40,7 +40,7 @@ export const product = [
 		image: "/assets/products/snowboards/k2-raygun.webp",
 		name: "Raygun",
 		brand: "K2",
-		category: "snowboard",
+		category: "snowboards",
 		price: 399,
 		description:
 		"The K2 Raygun is an award-winning all-mountain board, offering an easy ride with smooth edge-to-edge transitions. Great for beginners and intermediate riders alike.",
@@ -52,7 +52,7 @@ export const product = [
 		image: "/assets/products/snowboards/burton-process.webp",
 		name: "Process",
 		brand: "Burton",
-		category: "snowboard",
+		category: "snowboards",
 		price: 529,
 		description:
 		"The Burton Process is lightweight and playful, making it an ideal choice for freestyle riders looking to progress in the park or shred the whole mountain with confidence.",
@@ -64,7 +64,7 @@ export const product = [
 		image: "/assets/products/snowboards/lib-tech-skate-banana.webp",
 		name: "Banana Skate",
 		brand: "Lib Tech",
-		category: "snowboard",
+		category: "snowboards",
 		price: 549,
 		description:
 		"The Lib Tech Skate Banana is a revolutionary snowboard with a hybrid rocker design, offering effortless float in powder and easy control on groomers. Perfect for intermediate riders.",
@@ -76,7 +76,7 @@ export const product = [
 		image: "/assets/products/snowboards/salomon-huck-knife.webp",
 		name: "Huck Knife",
 		brand: "Salomon",
-		category: "snowboard",
+		category: "snowboards",
 		price: 500,
 		description:
 		"The Salomon Huck Knife is a top-tier park snowboard, delivering explosive pop and precise handling. Ideal for freestyle riders who love hitting rails, boxes, and jumps.",
@@ -88,7 +88,7 @@ export const product = [
 		image: "/assets/products/snowboards/k2-broadcast.webp",
 		name: "Broadcast",
 		brand: "K2",
-		category: "snowboard",
+		category: "snowboards",
 		price: 499,
 		description:
 		"The K2 Broadcast is an all-terrain beast, offering a perfect blend of power, precision, and playful flexibility. It’s built for riders who want reliable performance on any slope.",
@@ -100,7 +100,7 @@ export const product = [
 		image: "/assets/products/snowboards/burton-deep-thinker.webp",
 		name: "Deep Thinker",
 		brand: "Burton",
-		category: "snowboard",
+		category: "snowboards",
 		price: 649,
 		description:
 		"Designed with input from Danny Davis, the Burton Deep Thinker is a directional snowboard built for riders who enjoy charging hard and carving deep in powder and groomers.",
@@ -112,7 +112,7 @@ export const product = [
 		image: "/assets/products/snowboards/lib-tech-orca.webp",
 		name: "Orca",
 		brand: "Lib Tech",
-		category: "snowboard",
+		category: "snowboards",
 		price: 699,
 		description:
 		"The Lib Tech Orca is a high-performance, wide-bodied freeride board known for its float and stability. It’s perfect for aggressive riders who want to dominate the backcountry.",
@@ -124,7 +124,7 @@ export const product = [
 		image: "/assets/products/helmets/smith-vantage.webp",
 		name: "Vantage",
 		brand: "Smith",
-		category: "helmet",
+		category: "helmets",
 		price: 270,
 		description:
 		"The Smith Vantage is a premium helmet that combines advanced protection and a lightweight design, featuring adjustable ventilation and a Boa fit system for comfort.",
@@ -136,7 +136,7 @@ export const product = [
 		image: "/assets/products/helmets/giro-ledge-mips.webp",
 		name: "Ledge MIPS",
 		brand: "Giro",
-		category: "helmet",
+		category: "helmets",
 		price: 100,
 		description:
 		"The Giro Ledge MIPS offers top-notch safety with its multi-directional impact protection system. It's perfect for freestyle riders looking for durability and comfort.",
@@ -148,7 +148,7 @@ export const product = [
 		image: "/assets/products/helmets/anon-raider-3.webp",
 		name: "Raider 3",
 		brand: "Anon",
-		category: "helmet",
+		category: "helmets",
 		price: 85,
 		description:
 		"The Anon Raider 3 helmet provides skaters and snowboarders with reliable protection, boasting a simple, durable construction and passive ventilation.",
@@ -160,7 +160,7 @@ export const product = [
 		image: "/assets/products/helmets/smith-mission.webp",
 		name: "Mission",
 		brand: "Smith",
-		category: "helmet",
+		category: "helmets",
 		price: 140,
 		description:
 		"The Smith Mission is lightweight yet highly protective, with Koroyd material for improved impact absorption and AirEvac ventilation to prevent goggles from fogging.",
@@ -172,7 +172,7 @@ export const product = [
 		image: "/assets/products/helmets/giro-range-mips.webp",
 		name: "Range MIPS",
 		brand: "Giro",
-		category: "helmet",
+		category: "helmets",
 		price: 250,
 		description:
 		"The Giro Range MIPS helmet combines a custom fit with supreme protection, featuring integrated MIPS technology and adjustable venting for optimal comfort on the slopes.",

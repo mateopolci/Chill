@@ -1,9 +1,9 @@
 import React from "react";
 import Item from "./Item";
-import {useState, useEffect} from "react";
-import {product} from "../../data/product";
+import { useState, useEffect } from "react";
+import { product } from "../../data/product";
 
-function ItemList() {
+function ItemList({ category }) {
 	const [data, setData] = useState([]);
 	const [loading, setLoading] = useState(true);
 
@@ -22,26 +22,32 @@ function ItemList() {
 	}, []);
 
 	if (loading) {
-		return <div className="flex justify-center items-center h-screen">Loading...</div>;
+		return (
+			<div className="flex h-screen items-center justify-center">
+				Loading...
+			</div>
+		);
 	}
+
+	const filteredData = category ? data.filter((prod) => prod.category === category) : data;
 
 	return (
 		<>
 			<div className="flex flex-col items-center">
-				<h2 className="py-8 text-xl">All our products</h2>
+				<h2 className="py-8 text-xl">{category ? `${category.charAt(0).toUpperCase() + category.slice(1)}` : 'All our products'}</h2>
 				<div className="grid grid-cols-6 gap-20">
-					{data.map((prod) => (
-						<Item 
-                        key={prod.id}
-						image={prod.image}
-                        name={prod.name}
-                        brand={prod.brand}
-                        category={prod.category}
-                        price={prod.price}
-                        description={prod.description}
-                        stock={prod.stock}
-                        size={prod.size}
-                        />
+					{filteredData.map((prod) => (
+						<Item
+							key={prod.id}
+							image={prod.image}
+							name={prod.name}
+							brand={prod.brand}
+							category={prod.category}
+							price={prod.price}
+							description={prod.description}
+							stock={prod.stock}
+							size={prod.size}
+						/>
 					))}
 				</div>
 			</div>
