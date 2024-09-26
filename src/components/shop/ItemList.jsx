@@ -2,6 +2,7 @@ import React from "react";
 import Item from "./Item";
 import { useState, useEffect } from "react";
 import { product } from "../../data/product";
+import "../../index.css"
 
 function ItemList({ category }) {
 	const [data, setData] = useState([]);
@@ -24,7 +25,7 @@ function ItemList({ category }) {
 	if (loading) {
 		return (
 			<div className="flex h-screen items-center justify-center">
-				Loading...
+				<span class="loader"></span>
 			</div>
 		);
 	}

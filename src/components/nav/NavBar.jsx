@@ -11,17 +11,17 @@ function NavBar() {
 			<div className="flex">
 				<ul className="flex flex-row items-center justify-center">
 					<li className="text-2xl font-semibold text-light-green">
-						<Link to="/snowboards" className="mx-5 p-2">
+						<Link to="/snowboards" className="mr-10 p-2">
 							Snowboards
 						</Link>
 					</li>
 					<li className="text-2xl font-semibold text-light-green">
-						<Link to="/helmets" className="ml-5 mr-10 p-2">
+						<Link to="/helmets" className="mr-10 p-2">
 							Helmets
 						</Link>
 					</li>
 					<li className="text-2xl font-semibold text-light-green">
-						<Link to="/goggles" className="ml-5 mr-10 p-2">
+						<Link to="/goggles" className="mr-10 p-2">
 							Goggles
 						</Link>
 					</li>
