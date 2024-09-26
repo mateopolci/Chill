@@ -34,7 +34,7 @@ function ItemList({ category }) {
 	return (
 		<>
 			<div className="flex flex-col items-center">
-				<h2 className="py-8 text-xl">{category ? `${category.charAt(0).toUpperCase() + category.slice(1)}` : 'All our products'}</h2>
+				<h2 className="py-8 text-2xl">{category ? `${category.charAt(0).toUpperCase() + category.slice(1)}` : 'All our products'}</h2>
 				<div className="grid grid-cols-6 gap-20">
 					{filteredData.map((prod) => (
 						<Item
