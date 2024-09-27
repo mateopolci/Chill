@@ -28,7 +28,7 @@ function ItemDetailContainer() {
 	if (loading) {
 		return (
 			<div className="flex h-screen items-center justify-center">
-				Loading...
+				<span className="loader"></span>
 			</div>
 		);
 	}
