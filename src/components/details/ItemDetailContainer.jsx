@@ -1,7 +1,7 @@
 import React, {useState, useEffect} from "react";
 import {useParams} from "react-router-dom";
 import {product} from "../../data/product";
-import ItemDetail from "./ItemDetail"; // Importamos ItemDetail
+import ItemDetail from "./ItemDetail";
 
 function ItemDetailContainer() {
     const {id} = useParams();
@@ -40,7 +40,7 @@ function ItemDetailContainer() {
 
     return (
         <div className="flex flex-col items-center p-6">
-            <ItemDetail item={item} /> {/* Pasamos el producto a ItemDetail */}
+            <ItemDetail item={item} />
         </div>
     );
 }

@@ -10,7 +10,7 @@ function App() {
 		<div className="flex min-h-screen flex-col">
 			<BrowserRouter>
 				<NavBar />
-				<div className="flex-grow">
+				<div className="flex-grow">	
 					<Routes>
 						<Route path="/" element={<ItemListContainer />} />
 						<Route path="/:category" element={<ItemListContainer />}/>
