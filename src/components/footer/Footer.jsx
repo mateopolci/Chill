@@ -7,17 +7,17 @@ function Footer() {
 			<div className="flex">
 				<ul className="flex flex-row items-center">
 					<li className="text-xl font-semibold text-light-green">
-						<Link to="/" className="ml-10 mr-5 p-2">
+						<Link to="/" className="ml-5 mr-5 p-2">
 							FAQ
 						</Link>
 					</li>
 					<li className="text-xl font-semibold text-light-green">
-						<Link to="/" className="ml-5 mr-10 p-2">
+						<Link to="/" className="ml-5 mr-5 p-2">
 							Privacy and terms
 						</Link>
 					</li>
 					<li className="text-xl font-semibold text-light-green">
-						<Link to="/" className="mx-5 p-2">
+						<Link to="/" className="m-5 p-2">
 							230 E Main St, Aspen, CO 81611, EE. UU.
 						</Link>
 					</li>

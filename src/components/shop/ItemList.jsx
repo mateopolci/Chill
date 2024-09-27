@@ -13,7 +13,7 @@ function ItemList({ category }) {
 			return new Promise((resolve) => {
 				setTimeout(() => {
 					resolve(product);
-				}, 2000);
+				}, 1000);
 			});
 		};
 		fetchProduct().then((response) => {
@@ -25,7 +25,7 @@ function ItemList({ category }) {
 	if (loading) {
 		return (
 			<div className="flex h-screen items-center justify-center">
-				<span class="loader"></span>
+				<span className="loader"></span>
 			</div>
 		);
 	}
@@ -36,10 +36,11 @@ function ItemList({ category }) {
 		<>
 			<div className="flex flex-col items-center">
 				<h2 className="py-8 text-2xl">{category ? `${category.charAt(0).toUpperCase() + category.slice(1)}` : 'All our products'}</h2>
-				<div className="grid grid-cols-6 gap-20">
+				<div className="grid grid-cols-6 gap-16">
 					{filteredData.map((prod) => (
 						<Item
 							key={prod.id}
+							id={prod.id}
 							image={prod.image}
 							name={prod.name}
 							brand={prod.brand}
