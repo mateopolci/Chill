@@ -36,7 +36,7 @@ function ItemList({ category }) {
 		<>
 			<div className="flex flex-col items-center">
 				<h2 className="py-8 text-2xl">{category ? `${category.charAt(0).toUpperCase() + category.slice(1)}` : 'All our products'}</h2>
-				<div className="grid grid-cols-6 gap-16">
+				<div className="grid grid-cols-6 gap-16 pb-8">
 					{filteredData.map((prod) => (
 						<Item
 							key={prod.id}

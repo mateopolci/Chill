@@ -1,11 +1,15 @@
+/* Font */
 @import url("https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap");
 body {
 	font-family: "Fredoka", sans-serif;
 }
+
+/* Tailwind */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+/* Animation */
 .loader {
 	width: 96px;
 	height: 96px;
@@ -16,7 +20,6 @@ body {
 	box-sizing: border-box;
 	animation: rotation 1s linear infinite;
 }
-
 @keyframes rotation {
 	0% {
 		transform: rotate(0deg);
@@ -24,4 +27,9 @@ body {
 	100% {
 		transform: rotate(360deg);
 	}
+}
+
+/* Calc */
+.center{
+	height: calc(100vh - 210px);
 }
