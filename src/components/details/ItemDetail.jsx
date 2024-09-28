@@ -3,21 +3,26 @@ import React from "react";
 function ItemDetail({item}) {
 	return (
 		<>
-			<div className="flex items-center min-h-96">
+			<div className="flex items-center justify-center border-2 border-solid border-black p-10">
 				<div>
-					<div className="flex h-64 w-64 items-center">
+					<div className="m-5 flex h-72 w-72 items-center border-2 border-solid border-black p-3">
 						<img src={item.image} alt={item.name} className="" />
 					</div>
 				</div>
-				<div>
-					<h2 className="text-2xl font-bold">{item.name}</h2>
-					<h3 className="text-lg">{item.brand}</h3>
-					<p>${item.price}</p>
-					<p>Only {item.stock} remaining!</p>
-					<div className="w-80">
-						<p>{item.description}</p>
+				<div className="flex flex-col items-center">
+					<div>
+						<h2 className="text-2xl font-bold">{item.name}</h2>
+						<h3 className="text-lg">{item.brand}</h3>
+						<h3 className="text-lg">{`Size ${item.size}`}</h3>
+						<div className="my-2 w-96 text-xl">
+							<p>{item.description}</p>
+						</div>
+						<p className="my-2 text-2xl">
+							Only {item.stock} remaining!
+						</p>
+						<p className="text-2xl">${item.price}</p>
 					</div>
-					<button className="m-5 w-24 rounded-sm border border-solid border-black bg-light-green">
+					<button className="hover:bg-dark-green my-5 h-12 w-36 rounded-xl border-2 border-solid border-black bg-light-green hover:text-white">
 						Add to cart
 					</button>
 				</div>
