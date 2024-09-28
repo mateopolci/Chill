@@ -9,8 +9,8 @@ function Item({id, image, name, brand, price}) {
 	};
 
 	return (
-		<div className="flex h-80 w-48 flex-col items-center justify-between border-2 border-solid border-black p-3">
-			<div className="flex ">
+		<div className="flex h-80 w-48 flex-col items-center justify-end border-2 border-solid border-black p-3">
+			<div className="flex">
 				<img src={image} className=""></img>
 			</div>
 			<div className="text-center">
@@ -18,7 +18,7 @@ function Item({id, image, name, brand, price}) {
 				<h4>{brand}</h4>
 				<p>${price}</p>
 				<button
-					className="hover:bg-dark-green my-5 h-8 w-24 rounded-xl border-2 border-solid border-black bg-light-green hover:text-white"
+					className="hover:bg-dark-green mt-5 h-8 w-24 rounded-xl border-2 border-solid border-black bg-light-green hover:text-white"
 					onClick={handleDetailsClick}
 				>
 					Details
