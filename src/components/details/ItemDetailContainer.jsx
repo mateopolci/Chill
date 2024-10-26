@@ -1,29 +1,46 @@
-import React, {useState, useEffect} from "react";
-import {useParams} from "react-router-dom";
-import {product} from "../../data/product";
+import React, { useState, useEffect } from "react";
+import { useParams } from "react-router-dom";
+import { db } from "../../firebase/firebase";
+import { doc, getDoc } from "firebase/firestore";
 import ItemDetail from "./ItemDetail";
 
 function ItemDetailContainer() {
-    const {id} = useParams();
+    const { id } = useParams();
     const [item, setItem] = useState(null);
     const [loading, setLoading] = useState(true);
 
     useEffect(() => {
-        const fetchProductById = () => {
-            return new Promise((resolve) => {
-                setTimeout(() => {
-                    const foundProduct = product.find(
-                        (p) => p.id === parseInt(id)
-                    );
-                    resolve(foundProduct);
-                }, 1000);
-            });
+        const fetchProductById = async () => {
+            try {
+                // Referencia al documento específico usando el ID
+                const docRef = doc(db, "producto", id);
+                const docSnap = await getDoc(docRef);
+
+                if (docSnap.exists()) {
+                    // Combinar el ID con los datos del documento
+                    return {
+                        id: docSnap.id,
+                        ...docSnap.data()
+                    };
+                } else {
+                    console.log("No se encontró el producto!");
+                    return null;
+                }
+            } catch (error) {
+                console.error("Error al obtener el producto:", error);
+                return null;
+            }
         };
 
-        fetchProductById().then((response) => {
-            setItem(response);
-            setLoading(false);
-        });
+        fetchProductById()
+            .then((response) => {
+                setItem(response);
+                setLoading(false);
+            })
+            .catch((error) => {
+                console.error("Error en el fetchProductById:", error);
+                setLoading(false);
+            });
     }, [id]);
 
     if (loading) {
