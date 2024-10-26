@@ -12,12 +12,10 @@ function ItemDetailContainer() {
     useEffect(() => {
         const fetchProductById = async () => {
             try {
-                // Referencia al documento específico usando el ID
                 const docRef = doc(db, "producto", id);
                 const docSnap = await getDoc(docRef);
 
                 if (docSnap.exists()) {
-                    // Combinar el ID con los datos del documento
                     return {
                         id: docSnap.id,
                         ...docSnap.data()
