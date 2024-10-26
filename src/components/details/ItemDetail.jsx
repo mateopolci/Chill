@@ -1,6 +1,25 @@
-import React from "react";
+import React, { useState } from "react";
 
 function ItemDetail({item}) {
+	const [count, setCount] = useState(1);
+
+	const handleIncrement = () => {
+		if (count < item.stock) {
+			setCount(count + 1);
+		}
+	};
+
+	const handleDecrement = () => {
+		if (count > 1) {
+			setCount(count - 1);
+		}
+	};
+
+	const handleAddToCart = () => {
+		// Aquí irá la lógica para añadir al carrito
+		console.log(`Adding ${count} ${item.name}(s) to cart`);
+	};
+
 	return (
 		<>
 			<div className="center flex items-center justify-center border-2 border-solid border-black p-10">
@@ -20,9 +39,33 @@ function ItemDetail({item}) {
 						</p>
 						<p className="text-2xl">${item.price}</p>
 					</div>
-					<button className="hover:bg-dark-green my-5 h-12 w-36 rounded-xl border-2 border-solid border-black bg-light-green hover:text-white">
-						Add to cart
-					</button>
+					<div className="flex flex-col items-center mt-5">
+						<div className="flex items-center">
+							<button 
+								onClick={handleDecrement}
+								className="h-8 w-8 rounded-full border-2 border-solid border-black bg-white text-xl font-bold hover:bg-gray-100"
+								disabled={count <= 1}
+							>
+								-
+							</button>
+							<span className="w-12 text-center text-xl font-bold">
+								{count}
+							</span>
+							<button 
+								onClick={handleIncrement}
+								className="h-8 w-8 rounded-full border-2 border-solid border-black bg-white text-xl font-bold hover:bg-gray-100"
+								disabled={count >= item.stock}
+							>
+								+
+							</button>
+						</div>
+						<button 
+							onClick={handleAddToCart}
+							className="hover:bg-dark-green my-5 h-12 w-36 rounded-xl border-2 border-solid border-black bg-light-green hover:text-white"
+						>
+							Add to cart
+						</button>
+					</div>
 				</div>
 			</div>
 		</>
