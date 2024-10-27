@@ -86,9 +86,12 @@ function CartPage() {
 			</div>
 			{cartItems.length > 0 && (
 				<div className="flex justify-center">
-					<button className="mt-5 h-8 w-36 rounded-xl border-2 border-solid border-black bg-light-green hover:bg-dark-green hover:text-white">
+					<Link
+						className="flex justify-center items-center mt-5 h-8 w-36 rounded-xl border border-solid border-black bg-light-green hover:bg-dark-green hover:text-white"
+						to="/checkout"
+					>
 						Finalizar compra
-					</button>
+					</Link>
 				</div>
 			)}
 		</div>

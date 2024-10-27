@@ -24,7 +24,7 @@ function ItemDetail({item}) {
 
   return (
     <>
-      <div className="center flex items-center justify-center border-2 border-solid border-black p-10">
+      <div className="center flex items-center justify-center border border-solid p-10">
         <div className="m-5 flex h-72 w-72 items-center p-3">
           <img src={item.image} alt={item.name} />
         </div>
@@ -63,7 +63,7 @@ function ItemDetail({item}) {
             </div>
             <button 
               onClick={handleAddToCart}
-              className="hover:bg-dark-green my-5 h-12 w-36 rounded-xl border-2 border-solid border-black bg-light-green hover:text-white"
+              className="hover:bg-dark-green my-5 h-12 w-36 rounded-xl border border-solid border-black bg-light-green hover:text-white"
             >
               Add to cart
             </button>
